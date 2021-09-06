@@ -8,7 +8,9 @@ from funcoes import *
 st.sidebar.write('''## Obrigado por utilizar minha aplicação!
 Me chamo Vinícius Pilan, sou estudante de Ciência da Computação pela Universidade 
 Estadual Paulista 'Júlio de Mesquita Filho' UNESP, no campus de 
-Bauru. Pretendo me especializar na área de dados e este projeto 
+Bauru. 
+
+Pretendo me especializar na área de dados e este projeto 
 faz parte do meu portifólio de projetos. Para saber mais sobre mim e 
 outros projetos de autoria minha, deixo algumas das minhas redes 
 sociais:
