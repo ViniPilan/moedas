@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
+import seaborn as sns
+import matplotlib.pyplot as plt
 from datetime import datetime
 from funcoes import *
 
@@ -77,7 +79,18 @@ if converter_real_para_moeda:
 intervalo_dias = len(list(df['data'].unique()))
 
 st.write('''## Variação do valor da moeda
-O gráfico abaixo mostra as mudanças de preço da moeda **{0}** nos últimos {1} dias.'''.format(moeda, intervalo_dias))
+O gráfico abaixo mostra as mudanças de preço da moeda **{0}** nos últimos {1} dias.
 
-fig = go.Figure(data=go.Scatter(x=df['data'], y=df['valor'], mode='lines+markers', line = dict(color='darkred', width=2)))
-st.plotly_chart(fig)
+&nbsp;
+'''.format(moeda, intervalo_dias))
+
+# fig = go.Figure(data=go.Scatter(x=df['data'], y=df['valor'], mode='lines+markers', line = dict(color='darkred', width=2)))
+# st.plotly_chart(fig)
+
+sns.set()
+
+fig, ax = plt.subplots(figsize=(7,4))
+ax = sns.lineplot(data=df, x='data', y='valor', color='darkred')
+ax.set_xlabel('Data')
+ax.set_ylabel('Valor moeda (em reais)')
+st.pyplot(fig=fig)
