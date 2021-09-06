@@ -90,7 +90,8 @@ O gráfico abaixo mostra as mudanças de preço da moeda **{0}** nos últimos {1
 sns.set()
 
 fig, ax = plt.subplots(figsize=(7,4))
-ax = sns.lineplot(data=df, x='data', y='valor', color='darkred')
+ax.plot(df['data'], df['valor'], color='darkred')
+ax.scatter(df['data'], df['valor'], color='darkred')
 ax.set_xlabel('Data')
 ax.set_ylabel('Valor moeda (em reais)')
 st.pyplot(fig=fig)
