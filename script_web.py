@@ -3,6 +3,9 @@ import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime
 from funcoes import *
+from os import system
+
+system("python -m pip install plotly")
 
 #Escrevendo na side bar
 st.sidebar.write('''## Obrigado por utilizar minha aplicação!
