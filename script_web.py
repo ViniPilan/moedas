@@ -15,9 +15,9 @@ faz parte do meu portifólio de projetos. Para saber mais sobre mim e
 outros projetos de autoria minha, deixo algumas das minhas redes 
 sociais:
 
-Linkedin: Vinícius de Paula Pilan
-GitHub: ViniPilan
-GitHub do projeto: https://github.com/ViniPilan/moedas''')
+- Linkedin: Vinícius de Paula Pilan
+- GitHub: [ViniPilan](https://github.com/ViniPilan)
+- GitHub do projeto: https://github.com/ViniPilan/moedas''')
 
 
 
