@@ -46,7 +46,7 @@ st.write('# {}'.format(moeda))
 
 #Valor da moeda 
 st.write('''## Valor da moeda
-A moeda **{0}** está valendo, atualmente, {1:.2f} reais a unidade. Portanto, **1 {0} é equivalente a R${1:.2f} reais**.
+A moeda **{0}** está valendo, atualmente, {1:.2f} reais a unidade. Portanto, **1 {0} é equivalente a R${1:.2f}**.
 
 O valor de {0} foi atualizado na data {2}/{3}/{4} no horário {5}:{6}'''.format(moeda, valor_real, formata_numero(dia), 
                                                                         formata_numero(mes), ano, formata_numero(hora), formata_numero(minuto)))
