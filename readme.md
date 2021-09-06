@@ -1,5 +1,8 @@
 # Moedas - Informações e conversor
 
+## Acesso a aplicação
+Para acessar a aplicação basta acessar o link https://share.streamlit.io/vinipilan/moedas/script_web.py, ou clicar [aqui](https://share.streamlit.io/vinipilan/moedas/script_web.py)
+
 ## Objetivo
 Desenvolver uma aplicação capaz de, ao usuário fornecer o nome de uma moeda, apresentar o preço (em real), a variação do preço dos últimos dias e uma calculadora de conversão de valor, que converte a moeda em questão para real ou valor em real para a moeda (dolar para real ou real para dolar, por exemplo).
 

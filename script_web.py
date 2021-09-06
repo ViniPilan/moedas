@@ -79,7 +79,7 @@ if converter_real_para_moeda:
 intervalo_dias = len(list(df['data'].unique()))
 
 st.write('''## Variação do valor da moeda
-O gráfico abaixo mostra as mudanças de preço da moeda **{0}** nos últimos {1} dias.
+O gráfico abaixo mostra as mudanças de preço da moeda **{0}** nos últimos {1} dias:
 
 &nbsp;
 '''.format(moeda, intervalo_dias))
