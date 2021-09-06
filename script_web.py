@@ -6,12 +6,16 @@ from funcoes import *
 
 #Escrevendo na side bar
 st.sidebar.write('''## Obrigado por utilizar minha aplicação!
-Me chamo Vinícius Pilan, sou graduando em Ciência da computação e procuro me especializar na área de dados.
+Me chamo Vinícius Pilan, sou estudante de Ciência da Computação pela Universidade 
+Estadual Paulista 'Júlio de Mesquita Filho' UNESP, no campus de 
+Bauru. Pretendo me especializar na área de dados e este projeto 
+faz parte do meu portifólio de projetos. Para saber mais sobre mim e 
+outros projetos de autoria minha, deixo algumas das minhas redes 
+sociais:
 
-Para saber mais sobre mim, sobre esse projeto e também sobre outros projetos que fiz:
-- Linkedin: Vinícius de Paula Pilan
-- GitHub: [ViniPilan](https://github.com/ViniPilan)
-- GitHub do projeto: https://github.com/ViniPilan/moedas''')
+Linkedin: Vinícius de Paula Pilan
+GitHub: ViniPilan
+GitHub do projeto: https://github.com/ViniPilan/moedas''')
 
 
 
